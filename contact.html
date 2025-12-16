@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - Cosmic Coffee Roasters</title>
+</head>
+<body>
+
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Menu & Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <h2>Send a Signal</h2>
+        <p>Fill out the form below to reach our team.</p>
+
+        <form action="submit_form.php" method="post">
+            <fieldset>
+                <legend>Customer Inquiry Form</legend>
+
+                <p>
+                    <label for="fname">Full Name:</label><br>
+                    <input type="text" id="fname" name="fullname" required>
+                </p>
+
+                <p>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="visit">Date of Last Visit:</label><br>
+                    <input type="date" id="visit" name="visit_date">
+                </p>
+
+                <p>
+                    <label for="favdrink">Favorite Drink:</label><br>
+                    <select id="favdrink" name="favorite_drink">
+                        <option value="espresso">Meteor Espresso</option>
+                        <option value="latte">Galaxy Latte</option>
+                        <option value="coldbrew">Nebula Cold Brew</option>
+                        <option value="other">Other</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="msg">Message:</label><br>
+                    <textarea id="msg" name="message" rows="5" cols="40"></textarea>
+                </p>
+
+                <p>
+                    <input type="submit" value="Send Message">
+                </p>
+
+            </fieldset>
+        </form>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2025 Cosmic Coffee Roasters. Created by [Your Name].</p>
+    </footer>
+
+</body>
+</html>
